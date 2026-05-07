@@ -1,0 +1,33 @@
+# Core AI & Deep Learning
+torch
+torchvision
+torchaudio
+transformers
+datasets
+accelerate
+bitsandbytes
+peft
+trl
+unsloth
+
+# UI & Interface
+gradio
+streamlit
+
+# Data Manipulation
+pandas
+numpy
+
+# LLM Frameworks (LangChain & Groq)
+langchain
+langchain-core
+langchain-groq
+python-dotenv
+
+# Utilities
+huggingface_hub
+sentencepiece
+protobuf
+
+evaluate
+rouge_score
