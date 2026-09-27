@@ -25,16 +25,18 @@ encouraging hints to help students learn how to debug independently.
 - **Deployment & UI:** Gradio, Python-dotenv.
 
 ## 📁 Project Structure
-├── data/
-│ ├── unlabeled_data.csv # Raw buggy/fixed code pairs
-│ └── labeled_data.csv # Generated dataset with Socratic hints
-├── src/
-│ ├── data_labeling.py # Script for synthetic data generation via Groq
-│ ├── train.py # Fine-tuning script using Unsloth & LoRA
-│ ├── upload_to_hf.py # Script to push the model to Hugging Face
-│ └── app.py # Gradio UI and Inference logic
-├── requirements.txt # Project dependencies
-└── README.md
 
----
+```
+├── data/
+│   ├── unlabeled_data.csv       # Raw buggy/fixed code pairs
+│   └── labeled_data.csv         # Generated dataset with Socratic hints
+├── src/
+│   ├── data_labeling.py         # Script for synthetic data generation via Groq
+│   ├── train.py                 # Fine-tuning script using Unsloth & LoRA
+│   ├── upload_to_hf.py          # Script to push the model to Hugging Face
+│   └── app.py                   # Gradio UI and Inference logic
+├── requirements.txt             # Project dependencies
+└── README.md
+```
+
 🤖 Built as a personal AI/ML project by **Elsayed Mohamed**
