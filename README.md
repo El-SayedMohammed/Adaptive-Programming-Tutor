@@ -35,3 +35,6 @@ encouraging hints to help students learn how to debug independently.
 │ └── app.py # Gradio UI and Inference logic
 ├── requirements.txt # Project dependencies
 └── README.md
+
+---
+🤖 Built as a personal AI/ML project by **Elsayed Mohamed**
